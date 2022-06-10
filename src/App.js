@@ -11,7 +11,7 @@ import Navbar from './Pages/Shared/Navbar';
 
 function App() {
   return (
-    <div className='md:container md:mx-auto px-1'>
+    <div className=' px-1 relative'>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
